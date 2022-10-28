@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #0D1A2D;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 2fr 1fr 0.5fr;
+
+    width: 275px;
+    height: 550px;
+    border-radius: 12px;
+    background-color: #14263F;
+}
+
+.img-container {
+    width: auto;
+    height: auto;
+    margin: 12px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.mid-container {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    margin: 12px;
+}
+
+.text-container {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.text-container h1{
+    margin: 0;
+    font-family: montserrat;
+    margin: 0 0 12px 0;
+    font-size: larger;
+}
+
+.text-container p{
+    font-size: medium;
+    font-family: montserrat;
+    margin: 0;
+    color: rgb(152, 152, 152);
+}
+
+.ethereum-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-side-eth {
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.left-side-eth p{
+    font-weight: bold;
+    color: rgb(30, 181, 198);
+}
+.left-side-eth p, img{
+    margin: 0;
+    display: inline-block;
+}
+
+.right-side-eth {
+    width: auto;
+    height: auto;
+    text-align: right;
+    padding: 10px;
+}
+
+.right-side-eth p, img{
+    margin: 0;
+    display: inline-block;
+}
+
+.bottom-container {
+    width: auto;
+    height: auto;
+    display: grid;
+    margin: 4px;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    border-top: 1px solid white;
+}
+
+.bottom-container img{
+    width: 50%;
+    height: 50%;
+    justify-self: center;
+}
+.bottom-container p, a {
+    font-size: small;
+    text-align: left;
+}
+.bottom-container a{
+   text-decoration: none;
+   color: white;
+}
+
+.bottom-container p{
+    color: rgb(152, 152, 152);
+}
